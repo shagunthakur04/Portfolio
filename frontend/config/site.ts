@@ -1,0 +1,33 @@
+export const siteConfig = {
+  name: "Shagun Thakur",
+  firstName: "Shagun",
+  lastName: "Thakur",
+  role: "Full Stack Developer",
+  greeting: "Hello, I'm",
+  bio: "I craft scalable web applications with clean code and thoughtful design — turning complex ideas into seamless digital experiences.",
+  nav: [
+    { label: "Home", href: "#home" },
+    { label: "About", href: "#about" },
+    { label: "Skills", href: "#skills" },
+    { label: "Projects", href: "#projects" },
+    { label: "Experience", href: "#experience" },
+    { label: "Blog", href: "#blog" },
+    { label: "Contact", href: "#contact" },
+  ],
+  cta: {
+    header: "Let's Talk",
+    primary: "View My Work",
+    secondary: "Download CV",
+  },
+  social: [
+    { label: "GitHub", href: "https://github.com", icon: "github" as const },
+    { label: "LinkedIn", href: "https://linkedin.com", icon: "linkedin" as const },
+    { label: "Twitter", href: "https://twitter.com", icon: "twitter" as const },
+    { label: "Instagram", href: "https://instagram.com", icon: "instagram" as const },
+  ],
+  heroTagline: "Turning ideas into reality",
+  heroTaglineEmoji: "💗",
+  heroAvailable: "Available for",
+  heroAvailableStatus: "Freelance Projects",
+  cvUrl: "/resume.pdf",
+};
