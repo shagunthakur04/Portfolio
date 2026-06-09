@@ -1,2 +1,0 @@
-# Portfolio
-Shagun Thakur Portfolio
